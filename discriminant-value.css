@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+
+.main-div {
+    max-width: 750px;
+    height: 420px;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+    margin: 20px 0 0 0 ;
+    padding: 20px 0 12px 0;
+}
+
+.formula {
+    text-align: center;
+    font-size: 22px;
+
+    margin: 0 0 15px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.value {
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.textbox {
+    width: 555px;
+    padding: 10px 25px;
+    margin: 15px 20px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: rgb(228, 0, 0);
+    color: white;
+    width: 300px;
+    border: none;
+    box-shadow: 0 2px 2px gray;
+    border-radius: 150px;
+    margin: 20px;
+    padding: 12px;
+    cursor: pointer;
+
+
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.button:active {
+    opacity: 0.3;
+}
